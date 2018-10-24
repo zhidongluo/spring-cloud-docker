@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: microservice-discovery-eureka-ha
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8762/eureka/
+---
+spring:
+     profiles: zone1
+server:
+  port: 8761
+---
+spring:
+     profiles: zone2
+server:
+  port: 8762

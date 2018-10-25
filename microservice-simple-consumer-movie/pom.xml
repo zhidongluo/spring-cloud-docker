@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.sunday</groupId>
-	<artifactId>microservice-provider-user</artifactId>
+	<artifactId>microservice-simple-consumer-movie</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>microservice-provider-user</name>
+	<name>microservice-simple-consumer-movie</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
